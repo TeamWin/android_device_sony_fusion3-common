@@ -122,7 +122,7 @@ EXTENDED_FONT_FOOTPRINT := true
 
 # Recovery
 BOARD_CUSTOM_BOOTIMG_MK := device/sony/fusion3-common/boot/custombootimg.mk
-TARGET_RECOVERY_FSTAB := device/sony/fusion3-common/rootdir/fstab.qcom
+TARGET_RECOVERY_FSTAB := device/sony/fusion3-common/rootdir/twrp.fstab
 
 # Vold
 TARGET_USE_CUSTOM_LUN_FILE_PATH := /sys/devices/platform/msm_hsusb/gadget/lun%d/file
